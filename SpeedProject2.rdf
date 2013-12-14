@@ -1,0 +1,19 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:akt="http://www.aktors.org/ontology/portal#"
+    xmlns:ownResearch="http://www.sideresearchgroup.com.br/internal/ownResearch/" > 
+  <rdf:Description rdf:about="http://www.google.com.br/rdf#">
+    <ownResearch:Project rdf:resource="http://www.google.com.br/rdf#/Project0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.google.com.br/rdf#/Project0">
+    <ownResearch:keywords>Ontology Summarization</ownResearch:keywords>
+    <ownResearch:keywords>Ontology Merging</ownResearch:keywords>
+    <ownResearch:keywords>Ontology Matching</ownResearch:keywords>
+    <ownResearch:keywords>PDMS Query Processing</ownResearch:keywords>
+    <ownResearch:keywords>PDMS Peer Grouping</ownResearch:keywords>
+    <dc:description>O desenvolvimento de aplicaes na Web fez crescer a necessidade por novas arquiteturas de sistemas distribudos e de alto desempenho de processamento.
+		Uma delas  a arquitetura Peer-to-Peer (P2P) que vem sendo bastante utilizada para trocas de informaes, especialmente arquivos, na Web.</dc:description>
+    <dc:title>The Speed Project</dc:title>
+  </rdf:Description>
+</rdf:RDF>

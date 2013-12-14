@@ -1,0 +1,25 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns="http://www.example.org/#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:ownResearch="http://www.sideresearchgroup.com.br/internal/ownResearch/">
+  <ns:Person rdf:about="http://www.example.org/#john">
+    <ns:hasMother rdf:resource="http://www.example.org/#susan" />
+    <ns:hasFather>
+      <rdf:Description rdf:about="http://www.example.org/#richard">
+        <ns:hasBrother rdf:resource="http://www.example.org/#luke" />
+      </rdf:Description>
+    </ns:hasFather>
+  </ns:Person>
+  <rdf:Description rdf:about="http://www.google.com.br/rdf#">
+    <ownResearch:Project rdf:resource="http://www.google.com.br/rdf#/Project0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.google.com.br/rdf#/Project0">
+    <ownResearch:keywords>Ontology Summarization</ownResearch:keywords>
+    <ownResearch:keywords>Ontology Merging</ownResearch:keywords>
+    <ownResearch:keywords>Ontology Matching</ownResearch:keywords>
+    <ownResearch:keywords>PDMS Query Processing</ownResearch:keywords>
+    <ownResearch:keywords>PDMS Peer Grouping</ownResearch:keywords>
+    
+    <dc:title>The Speed Project</dc:title>
+  </rdf:Description>
+</rdf:RDF>
